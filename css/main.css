@@ -1,6 +1,7 @@
 .home-header{
     background: linear-gradient(rgba(96,111,123,.3),rgba(96,111,123,.3)),url("../img/background.jpg") center center no-repeat;
     background-size:  cover; 
+    height: 90vh;
 }
 .austin-pro{
     background:  url("../img/austin-profile2.jpg") top center no-repeat;
