@@ -25,6 +25,9 @@
   background: linear-gradient(to right, #ff9966, #ff5e62);
   
 }
+.w-halfish{
+  width: 48%;
+}
 /* Float Shadow */
 .hvr-float-shadow {
     display: inline-block;
@@ -71,4 +74,5 @@
   /* Media Query */
   @media (max-width: 767px){
     .growth{display:none}
+    .w-halfish{width: 100%;}
   }
