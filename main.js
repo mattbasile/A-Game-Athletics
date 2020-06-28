@@ -9,17 +9,13 @@ $('.grow-link').click(
        
      });
 
-        
-//         $('#teach-header').attr('h1', link.h1);
-//         $('#js-nav-text').text(link.content);
-//         $('#js-nav-text').css('color', '#E5D4ED');
-//          $('.title').css('color', '#E5D4ED');
-//      },
-//      function(){
-//          $('#js-nav-text').css('color', '#fff');
-//          $('.title').css('color', '#fff');
-//         $('#js-nav-text').text('Junior Front End Developer');
-//          $('#pro-pic img').attr('src', navLinks.img);
-         
-//      }
-// );
+const CarouselClicker = (ev) =>{
+   ev.preventDefault();
+   const image_stage = document.getElementById('image_stage');
+   console.log(image_stage);
+   // Cutting the last two items from the str
+   let src = ev.target.id.slice(0, -2);
+   // image_stage.fadeOut();
+   image_stage.setAttribute('src', `./img/${src}.png`);
+   // image_stage.fadeIn();
+}
