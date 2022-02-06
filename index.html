@@ -9,7 +9,9 @@
     <meta name="author" content="Matthew Basile" />
     <!-- Favicons -->
     <link rel='icon' href='img/a-game-logo_75.png' type='image/icon'/>
-  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <!-- <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
   <script async defer data-website-id="d7668bef-892e-4572-a814-4c1b9dd6c57d" src="https://umami-matt-basile.herokuapp.com/umami.js"></script>
 </head>
 <body>
@@ -210,17 +212,7 @@
           </h2>
         </div>
         <dl class="mt-10 space-y-10 sm:space-y-0 sm:grid sm:gap-x-8 sm:gap-y-10 lg:mt-0 lg:col-span-2 ">
-          <div class="grid grid-cols-1 mx-auto md:grid-cols-4">
-            <div class="md:col-span-1">
-              <img class="p-1 w-full" src="./img/gallery-4.png" alt="">
-              <img src="./img/gallery-2.png" alt="" class="p-1 w-full" >
-            </div>
-           <img class="p-1 md:col-span-2 w-full" src="./img/gallery-1.png" alt="">
-          <div class="md:col-span-1">
-              <img class="p-1 w-full" src="./img/gallery-3.png" alt="">
-              <img class="p-1 w-full"src="./img/gallery-5.png" alt="">
-            </div>
-          </div>
+          <iframe class="rounded-xl" width="100%" height="500px" src="https://www.youtube.com/embed/m0xnc0yD1CY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </dl>
       </div>
     </div>
@@ -278,7 +270,7 @@
                 </svg>
                 <span class="ml-3">
                   <a href="tel:+1(973)454-4097">
-                    (973) 454-4097‬
+                    (973) 454-4097
                   </a>
                 </span>
               </dd>
@@ -315,132 +307,57 @@
             </ul>
           </div>
 
-          <script defer src="https://cdnjs.cloudflare.com/ajax/libs/punycode/1.4.1/punycode.js"></script>
-          <script src="https://cdn01.jotfor.ms/js/vendor/jquery-1.8.0.min.js?v=3.3.26544" type="text/javascript"></script>
-          <script defer src="https://cdn02.jotfor.ms/js/vendor/maskedinput.min.js?v=3.3.26544" type="text/javascript"></script>
-          <script defer src="https://cdn03.jotfor.ms/js/vendor/jquery.maskedinput.min.js?v=3.3.26544" type="text/javascript"></script>
-          <script src="https://cdn01.jotfor.ms/static/prototype.forms.js" type="text/javascript"></script>
-          <script src="https://cdn02.jotfor.ms/static/jotform.forms.js?3.3.26544" type="text/javascript"></script>
-          <script type="text/javascript">
-          JotForm.init(function(){
-          /*INIT-START*/
-          if (window.JotForm && JotForm.accessible) $('input_9').setAttribute('tabindex',0);
-          if (window.JotForm && JotForm.accessible) $('input_10').setAttribute('tabindex',0);
-          JotForm.setPhoneMaskingValidator( 'input_12_full', '(###) ###-####' );
-          if (window.JotForm && JotForm.accessible) $('input_13').setAttribute('tabindex',0);
-          if (window.JotForm && JotForm.accessible) $('input_14').setAttribute('tabindex',0);
-          JotForm.setCustomHint( 'input_14', 'Type here...' );
-          JotForm.newDefaultTheme = false;
-          JotForm.extendsNewTheme = false;
-          JotForm.newPaymentUIForNewCreatedForms = false;
-          JotForm.clearFieldOnHide="disable";
-          /*INIT-END*/
-          });
-
-          JotForm.prepareCalculationsOnTheFly([null,null,{"name":"submit","qid":"2","text":"SUBMIT","type":"control_button"},null,null,null,null,null,null,{"description":"","name":"firstName","qid":"9","subLabel":"","text":"First Name","type":"control_textbox"},{"description":"","name":"lastName","qid":"10","subLabel":"","text":"Last Name","type":"control_textbox"},{"description":"","name":"email","qid":"11","subLabel":"","text":"Email","type":"control_email"},{"description":"","name":"phoneNumber","qid":"12","text":"Phone Number","type":"control_phone"},{"description":"","name":"subject","qid":"13","subLabel":"","text":"Subject","type":"control_textbox"},{"description":"","name":"message","qid":"14","subLabel":"","text":"Message","type":"control_textarea"}]);
-          setTimeout(function() {
-          JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit","qid":"2","text":"SUBMIT","type":"control_button"},null,null,null,null,null,null,{"description":"","name":"firstName","qid":"9","subLabel":"","text":"First Name","type":"control_textbox"},{"description":"","name":"lastName","qid":"10","subLabel":"","text":"Last Name","type":"control_textbox"},{"description":"","name":"email","qid":"11","subLabel":"","text":"Email","type":"control_email"},{"description":"","name":"phoneNumber","qid":"12","text":"Phone Number","type":"control_phone"},{"description":"","name":"subject","qid":"13","subLabel":"","text":"Subject","type":"control_textbox"},{"description":"","name":"message","qid":"14","subLabel":"","text":"Message","type":"control_textarea"}]);}, 20); 
-          </script>
           <!-- Contact form -->
           <div class="py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12">
           <h3 class="text-lg font-medium text-gray-900">Send us a message</h3>
-
-          <form action="https://submit.jotform.com/submit/200745746521151/" method="post" name="form_200745746521151" id="200745746521151" accept-charset="utf-8" autocomplete="on" class="jotform-form">
-          <input type="hidden" name="formID" value="200745746521151" />
-          <input type="hidden" id="JWTContainer" value="" />
-          <input type="hidden" id="cardinalOrderNumber" value="" />
-          <div role="main" class="form-all">
-          <ul class="form-section page-section mt-6 sm:gap-x-8 sm:grid-cols-2 sm:gap-x-8 sm:grid-cols-2 gap-y-6 grid grid-cols-1 ">
-          <li class="form-line jf-required" data-type="control_textbox" id="id_9">
-          <label class=" block text-sm font-medium text-gray-900" id="label_9" for="input_9">
-            First Name
-          </label>
-          <div id="cid_9" class="jf-required mt-1">
-            <input type="text" id="input_9" name="q9_firstName" data-type="input-textbox" class="py-3 px-4 block w-full shadow-sm text-gray-900 border border-gray-300 rounded-md validate[required]" size="20" value="" data-component="textbox" aria-labelledby="label_9" required="" />
-          </div>
-          </li>
-          <li class="form-line jf-required" data-type="control_textbox" id="id_10">
-          <label class=" block text-sm font-medium text-gray-900" id="label_10" for="input_10">
-            Last Name
-          </label>
-          <div id="cid_10" class=" jf-required mt-1">
-            <input type="text" id="input_10" name="q10_lastName" data-type="input-textbox" class="py-3 px-4 block w-full shadow-sm text-gray-900 border border-gray-300 rounded-md validate[required]" size="20" value="" data-component="textbox" aria-labelledby="label_10" required="" />
-          </div>
-          </li>
-          <li class="form-line jf-required" data-type="control_email" id="id_11">
-          <label class="block text-sm font-medium text-gray-900" id="label_11" for="input_11">
-            Email
-          </label>
-          <div id="cid_11" class="jf-required mt-1">
-            <input type="email" id="input_11" name="q11_email" class="py-3 px-4 block w-full shadow-sm text-gray-900 border border-gray-300 rounded-md validate[required, Email]" size="30" value="" data-component="email" aria-labelledby="label_11" required="" />
-          </div>
-          </li>
-          <li class="form-line" data-type="control_phone" id="id_12">
-          <label class="block text-sm font-medium text-gray-900" id="label_12" for="input_12_full"> Phone Number </label>
-          <div id="cid_12" class="mt-1">
-            <span class="form-sub-label-container" style="vertical-align:top">
-              <input type="tel" id="input_12_full" name="q12_phoneNumber[full]" data-type="mask-number" class="py-3 px-4 block w-full shadow-sm text-gray-900 border border-gray-300 rounded-md mask-phone-number form-textbox validate[Fill Mask]" autoComplete="off" data-masked="true" value="" data-component="phone" aria-labelledby="label_12" />
-              <label class="form-sub-label" for="input_12_full" id="sublabel_12_masked" style="min-height:13px" aria-hidden="false">  </label>
-            </span>
-          </div>
-          </li>
-          <li class="sm:col-span-2 form-line" data-type="control_textbox" id="id_13">
-          <label class="block text-sm font-medium text-gray-900" id="label_13" for="input_13"> Subject </label>
-          <div id="cid_13" class="mt-1">
-            <input type="text" id="input_13" name="q13_subject" data-type="input-textbox" class="py-3 px-4 block w-full shadow-sm text-gray-900 border border-gray-300 rounded-md " size="20" value="" data-component="textbox" aria-labelledby="label_13" />
-          </div>
-          </li>
-          <li class="sm:col-span-2 form-line jf-required" data-type="control_textarea" id="id_14">
-          <label class="block text-sm font-medium text-gray-900" id="label_14" for="input_14">
-            Message
-          </label>
-          <div id="cid_14" class="mt-1 jf-required">
-            <textarea id="input_14" class="py-3 px-4 block w-full shadow-sm text-gray-900 border border border-gray-300 rounded-md form-textarea validate[required]" name="q14_message" cols="40" rows="6" data-component="textarea" required="" aria-labelledby="label_14"></textarea>
-          </div>
-          </li>
-          <li class="sm:col-span-2 form-line" data-type="control_button" id="id_2">
-          <div id="cid_2" class="mt-3">
-            <div style="text-align:center" data-align="center" class="form-buttons-wrapper form-buttons-center   jsTest-button-wrapperField">
-              <button id="input_2" type="submit" class="mt-2 w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-red-600 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 sm:w-auto form-submit-button form-submit-button-none submit-button jf-form-buttons jsTest-submitField" data-component="button" data-content="">
-                Submit
-              </button>
+          <form name="contact" method="POST" data-netlify="true" class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+            <div>
+              <label for="first-name" class="block text-sm font-medium text-gray-900">First name</label>
+              <div class="mt-1">
+                <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="py-3 px-4 block w-full shadow-sm text-gray-900 border border-gray-300 rounded-md">
+              </div>
             </div>
-          </div>
-          </li>
-          <li style="display:none">
-          Should be Empty:
-          <input type="text" name="website" value="" />
-          </li>
-          </ul>
-          </div>
-          <script>
-          JotForm.showJotFormPowered = "new_footer";
-          </script>
-          <script>
-          JotForm.poweredByText = "Powered by JotForm";
-          </script>
-          <input type="hidden" class="simple_spc" id="simple_spc" name="simple_spc" value="200745746521151" />
-          <script type="text/javascript">
-          var all_spc = document.querySelectorAll("form[id='200745746521151'] .si" + "mple" + "_spc");
-          for (var i = 0; i < all_spc.length; i++)
-          {
-          all_spc[i].value = "200745746521151-200745746521151";
-          }
-          </script>
-          <div class="formFooter-heightMask">
-          </div>
-          <div class="mx-auto text-center text-sm">
-          <div class="formFooter-wrapper formFooter-center">
-          <a href="https://www.jotform.com/?utm_source=formfooter&utm_medium=banner&utm_term=200745746521151&utm_content=jotform_logo&utm_campaign=powered_by_jotform_le" target="_blank" class="formFooter-logoLink"><img class="h-8 mt-6 mx-auto" src="https://cdn.jotfor.ms/assets/img/logo/logo-new@1x.png" alt="Jotform Logo"></a>
-          </div>
-          <div class="formFooter-wrapper formFooter-center">
-          <span class="text-sm text-red-500">
-          This form is support by JotForm - Try it free!
-          </span>
-          <a class="text-sm text-red-500 hover:underline" href="https://www.jotform.com/?utm_source=formfooter&utm_medium=banner&utm_term=200745746521151&utm_content=jotform_button&utm_campaign=powered_by_jotform_le" target="_blank">Create your own JotForm</a>
-          </div>
-          </div>
+            <div>
+              <label for="last-name" class="block text-sm font-medium text-gray-900">Last name</label>
+              <div class="mt-1">
+                <input type="text" name="last-name" id="last-name" autocomplete="family-name" class="py-3 px-4 block w-full shadow-sm text-gray-900 border border-gray-300 rounded-md">
+              </div>
+            </div>
+            <div>
+              <label for="email" class="block text-sm font-medium text-gray-900">Email</label>
+              <div class="mt-1">
+                <input id="email" name="email" type="email" autocomplete="email" class="py-3 px-4 block w-full shadow-sm text-gray-900 border border-gray-300 rounded-md">
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between">
+                <label for="phone" class="block text-sm font-medium text-gray-900">Phone</label>
+                <span id="phone-optional" class="text-sm text-gray-500">Optional</span>
+              </div>
+              <div class="mt-1">
+                <input type="text" name="phone" id="phone" autocomplete="tel" class="py-3 px-4 block w-full shadow-sm text-gray-900 border border-gray-300 rounded-md" aria-describedby="phone-optional">
+              </div>
+            </div>
+            <div class="sm:col-span-2">
+              <label for="subject" class="block text-sm font-medium text-gray-900">Subject</label>
+              <div class="mt-1">
+                <input type="text" name="subject" id="subject" class="py-3 px-4 block w-full shadow-sm text-gray-900 border border-gray-300 rounded-md">
+              </div>
+            </div>
+            <div class="sm:col-span-2">
+              <div class="flex justify-between">
+                <label for="message" class="block text-sm font-medium text-gray-900">Message</label>
+                <span id="message-max" class="text-sm text-gray-500">Max. 500 characters</span>
+              </div>
+              <div class="mt-1">
+                <textarea id="message" name="message" rows="4" class="py-3 px-4 block w-full shadow-sm text-gray-900 border border-gray-300 rounded-md" aria-describedby="message-max"></textarea>
+              </div>
+            </div>
+            <div class="sm:col-span-2 sm:flex sm:justify-end">
+              <button type="submit" class="mt-2 w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-red-600 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 sm:w-auto">Submit</button>
+            </div>
           </form>
+
           </div>
         </div>
       </div>
